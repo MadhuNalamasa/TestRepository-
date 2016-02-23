@@ -1,0 +1,6 @@
+public class Eclerx{
+public static void main(String args[])
+{
+ Syatem.out.println("Test of GitHub Repository"); 
+}
+}
