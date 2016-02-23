@@ -3,5 +3,6 @@ public static void main(String args[])
 {
  Syatem.out.println("Test of GitHub Repository"); 
  System.out.println("Test123");
+ System.out.println("Directly committed in Master branch");
 }
 }
