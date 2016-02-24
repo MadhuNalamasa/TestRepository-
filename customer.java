@@ -9,6 +9,7 @@ public class Customer {
  
     String custName;
     String custCountry;
+    String custCon;
     int custId;
 
     @XmlElement
@@ -33,5 +34,14 @@ public class Customer {
     }
     public void setCustId(int custId) {
         this.custId = custId;
+    }
+    @XmlElement
+    public String getCustCon()
+    {
+     return custCon;
+    }
+    public void setCustCon(String custCon)
+    {
+     this.custCon = custCon;
     }
 }
